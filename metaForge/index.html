@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link href="style.css" type="text/css" rel="stylesheet">
+        <title>metaForge</title>
+        
+    </head>
+    <body>
+        <section class="strats">
+
+            <div id="canvas">
+                <canvas id="drawBoard"> </canvas>
+
+                <div id="tools-button-style"> 
+                    <button id="tools-button" type="button" 
+                        onclick="popUpTool()"> Tools </button>
+                </div>
+
+                <div id="utility-button-style"> 
+                    <button id="utility-button" type="button" 
+                        onclick="popUpUtility()"> Utilities </button>    
+                </div>
+
+                <div id="loadout-button-style">
+                    <button id="loadout-button" type="button" 
+                        onclick="popUpTeam()"> Loadout </button>    
+                </div>
+
+                
+
+            </div>
+
+            <div id="utility">
+
+                <h3>Utility</h3>
+
+                <ul id="grenades">
+                    <li id="smoke">smoke</li>
+                    <li id="flash">flash</li>
+                    <li id="he">he</li>
+                    <li id="molly">molly</li>
+                </ul>
+
+
+            </div>
+
+            <div id="team">
+                
+                <h3>Team</h3>
+
+                <ul>
+                    <li>Player 1</li>
+                    <li>Player 2</li>
+                    <li>Player 3</li>
+                    <li>Player 4</li>
+                    <li>Player 5</li>
+                </ul>
+
+            </div>
+
+            <div id="tools">
+                <h3>Tools</h3>
+                <ul id="tools-list">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+
+            </div>
+
+
+            
+
+        </section>
+        
+    </body>
+
+    <script src="strats.js"></script>
+    <script src="jquery/jquery.js"></script>
+    <script src="jquery/jquery-ui.js"></script>
+
+</html>

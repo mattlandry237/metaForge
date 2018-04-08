@@ -1,0 +1,121 @@
+.strats {
+    position: absolute;top: 75px; left: 200px;
+}
+
+#drawBoard {
+    width: 798px;
+    height: 798px;
+    border: 2px dotted red;
+}
+
+#tools {
+    position: absolute; top: 0px; right: 800px;
+    height: 400px;
+    width: 100px;
+    border: solid black 2px;
+    border-radius: 3px;
+
+}
+
+#tools h3 {
+    text-align: center;
+    line-height: 0px;
+}
+
+#tools li {
+    list-style-type: none;
+    height: 20px;
+    width: 20px;
+    border: dotted red 1px;
+    margin-bottom: 10px;
+    position: absolute; right: 15px;
+
+}
+
+#utility {
+    display: none;
+    position: absolute; top: 800px;
+    margin-bottom: 20px;
+    width: 400px;
+    height: 200px;
+    border: solid black 2px;
+    border-radius: 3px;
+        
+}
+
+#utility h3 {
+    text-align: center;
+}
+
+#team {
+    display: none;
+    position: absolute; left: 800px; bottom: 402px;
+    width: 400px;
+    height: 400px;
+    border: solid black 2px;
+    border-radius: 4px;
+}
+
+#team ul {
+    list-style-type: none;
+}
+#team li {
+    position: relative; right:  30px;
+    text-align: center;
+    line-height: 30px;
+    border: solid black 1px;
+    border-radius: 5px;
+    height: 30px;
+    width: 210px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+#team h3 {
+    text-align: center;
+}
+
+#utility li {
+    display: inline-block;
+    list-style-type: none;
+    text-align: center;
+    line-height: 20px;
+    height: 30px;
+    width: 30px;
+    border: solid black 1px;
+    background-color: beige;
+    margin-top: 25px;
+    margin-right: 35px;
+    margin-left: 15px;
+}
+
+#utility-button-style {
+    height: 50px;
+    width: 50px;
+    border: dotted red 1px;
+    position: absolute; top: 735px; left: 15px;
+    color: pink;
+    text-align: center;
+    line-height: 40px;
+
+}
+
+#loadout-button-style {
+    height: 50px;
+    width: 50px;
+    border: dotted red 1px;
+    position: absolute; top: 15px; left: 735px;
+    color: pink;
+    text-align: center;
+    line-height: 40px;
+
+}
+
+#tools-button-style {
+    height: 50px;
+    width: 50px;
+    border: dotted red 1px;
+    position: absolute; top: 15px; left: 15px;
+    text-align: center;
+    line-height: 40px;
+}
