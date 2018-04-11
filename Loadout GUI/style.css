@@ -1,0 +1,315 @@
+/*   GUI CSS   */
+.gui-position {
+    display: none;
+    position: fixed; top: 0; left: 0;
+    background-color: rgba(66,66,66, 0.1);
+    width: 100%;
+    height: 100%;
+
+}
+
+#gui-wrapper {
+    margin: 70px auto;
+    text-align: left;
+    width: 502px;
+    height: 250px;
+    
+}
+
+#gui-container {
+    position: relative;
+    background-color: rgba(189,189,189, 0.9);
+    border-radius: 5px;
+    border: solid 1px rgba(0, 0, 0, 0.2);
+
+    height: 350px;
+}
+
+#xbtn {
+    border-left: solid 1px black;
+    border-bottom: solid 1px black;
+    border-bottom-left-radius: 5px;
+    padding: 0px 15px;
+    font-size: 25px;
+    background-color: #E53935; 
+    position: absolute; left: 455px;
+}
+
+
+/* Removed Cancel button to implement X Button
+
+#close-gui {
+    position: absolute; bottom: 10px; left: 10px;
+    background-color: #E53935;
+}
+
+#close-gui:hover {
+    background-color: #C62828;
+}
+
+*/
+
+#createbtn {
+    position: absolute; bottom: 10px; right: 10px;
+    background-color: #43A047;
+}
+
+#createbtn:hover {
+    background-color: #2E7D32;
+}
+
+#gui-container input{
+    padding: 0;
+    position: absolute; left: 10px; top: 10px;
+    background-color: rgba(245,245,245, 0.9);
+    font-size: 20px;
+    color: black;
+    border-top: none;
+    border-left: none;
+    border-bottom: solid 1px black;
+    border-right: solid 1px black;
+    border-bottom-right-radius: 5px;
+}
+
+::placeholder {
+    font-size: 20px;
+    padding: 0;
+    color: black;
+    background-color: rgba(158,158,158, 0.9);
+    border-bottom-right-radius: 5px;
+}
+/*   End GUI CSS   */
+
+
+
+
+/*    Random CSS   */
+button {
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+
+}
+
+#addPlayerbtn {
+    background-color: #546E7A;
+}
+
+#addPlayerbtn:hover {
+    cursor: pointer;
+    background-color: #455A64;
+
+}
+/*   End Random CSS   */
+
+
+
+
+/*   Primary Weapon Drop Down Menu Stuff */
+#primarybtn {
+    position: absolute; top: 10px; left: 50px;
+    width: 150px;
+}
+
+.pdropbtn {
+    background-color: #3F51B5;
+}
+
+.pdropbtn:hover, .pdropbtn:focus {
+    background-color: #303F9F;
+}
+
+.pdropdown {
+    position: relative;
+    display: inline-block;
+    
+}
+
+.pdropdown-content {
+    display: none;
+    position: absolute; top: 46px; left: 50px;
+    background-color: #C5CAE9;
+    width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    cursor: pointer;
+}
+
+.pdropdown-content button {
+    background-color: #C5CAE9;
+    text-align: left;
+    color: black;
+    font-size: 15px;
+    padding: 8px 16px;
+    text-decoration: none;
+    display: block;
+    overflow: auto;
+    border: solid 1px black;
+    border-top: none;
+    border-radius: 0px;
+    width: 100%;
+}
+
+.pdropdown-content button:hover {
+    background-color: #9FA8DA;
+}
+/*   End Primary Weapon Drop Down Menu Stuff   */
+
+
+
+/*   Secondary Drop Down Menu Stuff */
+#secondarybtn {
+    position: absolute; top: 10px; left: 300px;
+    width: 150px;
+}
+
+.sdropbtn {
+    background-color: #3F51B5;
+}
+
+.sdropbtn:hover, .sdropbtn:focus {
+    background-color: #303F9F;
+}
+
+.sdropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.sdropdown-content {
+    display: none;
+    position: absolute; left: 300px; top: 45px;
+    background-color: #C5CAE9;
+    width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    cursor: pointer;
+}
+
+.sdropdown-content button {
+    background-color: #C5CAE9;
+    text-align: left;
+    color: black;
+    font-size: 15px;
+    padding: 8px 16px;
+    text-decoration: none;
+    display: block;
+    overflow: auto;
+    border:solid 1px black;
+    border-top: none;
+    border-radius: 0px;
+    width: 100%;
+}
+
+.sdropdown-content button:hover {
+    background-color: #9FA8DA;
+}
+/*   End Secondary Weapon Drop Down Menu   */
+
+
+
+
+
+
+
+/*   Color Menu CSS */
+
+
+/* GUI Color Button CSS */
+.cdropbtn {
+    color: white;
+    position: absolute; left: 300px; top: 80px;
+    font-size: 15px;
+    width: 100px;
+    height: 30px;
+    padding: 5px 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3F51B5;
+    cursor: pointer;
+
+}
+
+.cdropbtn:hover, .cdropbtn:focus {
+    background-color: #303F9F;
+
+}
+/* End GUI Color Button CSS */
+
+
+
+/* Colors */
+.cbtn:hover, .cbtn:focus{
+    border: solid black 2px;
+    cursor: pointer;
+
+}
+
+#bluebtn {
+    background-color: blue;
+}
+
+#greenbtn {
+    background-color: green;
+}
+
+#orangebtn {
+    background-color: orange;
+}
+
+#purplebtn {
+    background-color: purple;
+    margin-left: 45px;
+    margin-bottom: 25px;
+}
+
+#yellowbtn {
+    background-color: yellow;
+}
+
+/* End Colors */
+
+
+/* Color Drop Down Menu CSS */
+.cdropdown {
+    position: relative;
+    display: inline-block;
+    
+    
+}
+
+.cdropdown-content {
+    display: none;
+    position: absolute; left: 310px; top: 110px;
+    border: solid 1px black;
+    border-radius: 5px;
+    background-color: #C5CAE9;
+    width: 175px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    
+}
+
+.cdropdown-content button {
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    margin: 15px;
+    padding: 10px 10px;
+    width: 10px;
+    height: 10px;
+    border: solid 1px black;
+    
+}
+/* End Color Drop Down Menu CSS */
+
+
+/*   End Color Menu CSS   */
+
+/* Generic Drop Down Menu */
+.show {
+    display:block;
+}
+/* End Generic Drop Down Menu */

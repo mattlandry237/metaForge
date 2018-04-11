@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link href="style.css" type="text/css" rel="stylesheet">
+    
+</head>
+<body>
+
+    <div id="loadout-gui" class="gui-position">
+       
+        <div id="gui-wrapper">
+            <div id="gui-container">
+                <!-- Player Name Input -->
+                    <input  id="nameInput" type="text" placeholder="Enter Player Name" name="name" maxlength="20">
+                <!-- Player Name Input End -->
+                <button id="xbtn" onclick="toggle_visibility('loadout-gui')"> &times; </button>
+            </br>
+
+        <!-- Primary Weapon Drop Down Menu -->
+                <div class="pdropdown">
+                        <button onclick="pdropDownMenu()" id="primarybtn"class="pdropbtn">Primary Weapon</button>
+                    <!-- Primary Weapond Drown Down Conent -->
+                        <div id="primaryDD" class="pdropdown-content">
+            
+                            <button id="ak47"> AK-47 </button> 
+                            <button id="m4a4"> M4A4 </button> 
+                            <button id="m4a1-s"> M4A1-S </button>
+                            <button id="famas"> Famas </button> 
+                            <button id="galil"> Galil AR</button> 
+                            <button id="aug"> Aug </button> 
+                            <button id="sg553"> SG 553 </button> 
+                            
+                        </div> 
+                    <!-- End of Primary Drop Down Content -->
+                    </div> 
+        <!-- End of Primary Drop Down Menu -->
+
+
+                    
+        <!-- Secondary Weapon Drop Down Menu  -->        
+                    <div class="sdropdown">
+                        <button onclick="sdropDownMenu()" id="secondarybtn"class="sdropbtn">Secondary Weapon</button>
+                    <!-- Secondary Weapon Drop Down Content -->        
+                        <div id="secondaryDD" class="sdropdown-content">
+            
+                            <button id="usp-s"> USP-S </button> 
+                            <button id="glock-18"> Glock-18 </button> 
+                            <button id="p2000"> P2000 </button>
+                            <button id="p250"> P250 </button> 
+                            <button id="five-seven"> Five-Seven</button> 
+                            <button id="tec-9"> Tec-9 </button> 
+                            <button id="cz75"> CZ75-Auto </button>
+                            <button id="deagle"> Desert Eagle </button> 
+                            <button id="cz75"> Dual Berettas </button> 
+                            <button id="r8"> R8 Revolver </button> 
+                            
+                        </div> 
+                    <!-- End of Secondary Drop Down Content -->
+                    </div> 
+        <!-- End of Secondary Drop Down Menu -->
+
+
+        <!-- Color Menu -->
+
+                <div class="cdropdown">
+                    <button onclick="cdropDownMenu()" id="colorbtn" class="cdropbtn">Color</button> 
+		
+	                <!-- Color Menu Content -->
+                        <div id="colorDD" class="cdropdown-content">
+
+                            <button class="cbtn" id="bluebtn">  </button>
+                            <button class="cbtn" id="greenbtn">  </button>
+                            <button class="cbtn" id="orangebtn">  </button>
+                            <button class="cbtn" id="purplebtn">  </button>
+                            <button class="cbtn" id="yellowbtn">  </button>
+
+                        </div> 
+	                <!--End colorMenu Content --> 
+                </div>
+        <!-- End Color Menu -->            
+
+                <button id="createbtn" type="submit">Create</button>
+
+                <!--Removed Cancel button to implement X Button
+
+                    <button id="close-gui" onclick="toggle_visibility('loadout-gui')">Cancel</button> 
+                
+                -->
+                
+            </div><!--End of gui-container -->
+       </div><!-- End of gui-wrapper -->
+    </div><!--End of loadoutGUI -->
+
+    <div id="wrapper">
+
+        <button id="addPlayerbtn"onclick="toggle_visibility('loadout-gui')">Add Player</button>
+        
+    </div><!-- End of Wrapper -->
+
+    <script src="sketch.js"></script>
+</body>
+</html>
